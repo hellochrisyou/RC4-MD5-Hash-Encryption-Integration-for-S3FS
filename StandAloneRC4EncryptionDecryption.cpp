@@ -1,3 +1,5 @@
+//Chris You
+//Standalone RC4 Encryption/Decryption
 #include <string.h>
 #include <stdlib.h>
 #include <stdio.h>
