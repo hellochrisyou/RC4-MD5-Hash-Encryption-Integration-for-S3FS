@@ -1,3 +1,4 @@
+//declaration and definition of Rc4 implementation located in fdcache.cpp
 /*
  * s3fs - FUSE-based file system backed by Amazon S3
  *
