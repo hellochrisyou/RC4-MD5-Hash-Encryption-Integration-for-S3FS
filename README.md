@@ -1,4 +1,4 @@
-<img  src="https://chrisyou-backup-website.s3.amazonaws.com/assets/banner-s3f.png" width="100%"/>
+<img  src="https://chrisyou-backup-website.s3.amazonaws.com/assets/s3fs/final-s3fs.png" width="100%"/>
 
 # S3FS
 s3fs allows Linux and Mac OS X to mount an S3 bucket via FUSE.
