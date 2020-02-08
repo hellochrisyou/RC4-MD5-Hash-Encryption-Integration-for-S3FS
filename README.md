@@ -10,7 +10,7 @@
 2. Place any type of file into the mounted bucket (encrypted or decrypted)
 3. Check S3 bucket for file to see if it the encryption/decryption was reversed.
 4. Tested a file vice versa, placing file in s3 bucket.
-## Diagram
+## Infrastructure
 <img  src="https://chrisyou-backup-website.s3.amazonaws.com/assets/S3FS/s3fs-diagram.png" width="100%"/>
 
 The below diagram, shows how both EBS and S3 buckets appears to a Linux operating system.
