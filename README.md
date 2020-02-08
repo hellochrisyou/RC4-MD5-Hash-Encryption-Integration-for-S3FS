@@ -11,3 +11,5 @@
 2. Place any type of file into the mounted bucket (encrypted or decrypted)
 3. Check S3 bucket for file to see if it the encryption/decryption was reversed.
 4. Tested a file vice versa, placing file in s3 bucket.
+<img  src="https://chrisyou-backup-website.s3.amazonaws.com/assets/S3FS/s3fs-ebs.png" width="100%"/>
+
