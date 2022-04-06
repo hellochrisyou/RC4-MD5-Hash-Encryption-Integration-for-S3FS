@@ -5,8 +5,9 @@
 <img  src="https://storage.googleapis.com/static-images-703/S3FS-Stand-Alone.png" width="50%"/>
 
 2. S3FS installed in a <b>Linux</b> environment
-3. Integrate stand-alone algorithm (RC4 + MD5 Hash) into S3FS code-base (which would <b>enable encrypting/decrypting any files that is modified in a mounted bucket</b>)
-4. Registered S3 bucket in AWS as remote storage for S3FS
+<img  src="https://storage.googleapis.com/static-images-703/S3fS-install-s3fs.png" width="20%"/>
+4. Integrate stand-alone algorithm (RC4 + MD5 Hash) into S3FS code-base (which would <b>enable encrypting/decrypting any files that is modified in a mounted bucket</b>)
+5. Registered S3 bucket in AWS as remote storage for S3FS
 ## Result
 1. Mount bucket onto local drive
 2. Place any type of file into the mounted bucket (encrypted or decrypted)
