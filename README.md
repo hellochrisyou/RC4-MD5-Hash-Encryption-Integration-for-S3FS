@@ -22,7 +22,9 @@
 </li>
 </ul>
 <br>
-4. Registered S3 bucket in AWS as remote storage for S3FS
+4. Generate the access key ID and secret access key in AWS
+5. <img  src="https://storage.googleapis.com/static-images-703/S3FS-key.png" width="50%"/>
+6. Registered S3 bucket in AWS as remote storage for S3FS
 <br>
 <br>
 <h2>Result</h2>
