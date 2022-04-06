@@ -1,7 +1,5 @@
-<img  src="https://chrisyou-backup-website.s3.amazonaws.com/assets/github-preview/s3fs/final-s3fs.png" width="100%"/>
 <h2>Technical Background</h2>
 <h5>Quoted from AWS resource webpage...</h5>
-<br>
 <br>
 <blockquote>
   Amazon S3 (Simple Storage Services) is a scalable cloud storage service from Amazon Web Services (AWS) used by many customers in the world. The basic unit of data storage in Amazon S3 is a bucket. You can create multiple buckets in Amazon S3 cloud storage and configure permissions for users who need to access the buckets. By default, users can access data stored in Amazon S3 buckets by using the AWS web interface.
