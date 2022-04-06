@@ -11,7 +11,8 @@
 <br>
 <ul>
 <li>RC4/MD5 Implementation
-```//Encryption-Decryption Function
+```
+//Encryption-Decryption Function
 void convert(int fd){
 string pass = "convert";
 
@@ -45,7 +46,8 @@ RC4(&key, length, (const unsigned char*)change.c_str(), buff);
 string result((char*)buff, length);
 pwrite(fd, result.c_str(), fileLength, 0);
 free (buff);
-}```
+}
+```
 </li>
 <br>
 <li>Implementing RC4/MD5 Function
