@@ -3,7 +3,7 @@
 2. [Development](#Development)
 3. [Validation](#Validation)
 4. [Infrastructure Diagram](#Infrastructure-Diagram)
-## Technical-Background
+## Technical Background <a name="Technical-Background"></a>
 <h5>Quoted from AWS resource webpage...</h5>
 <br>
 <blockquote>
@@ -12,7 +12,7 @@
  <br><br>  <b>This readme explains how to mount Amazon S3 cloud storage to a local directory on a Linux machine to allow using Amazon S3 for file sharing without a web browser.</b> 
  <br><br>  S3FS, a special solution based on FUSE (file system in user space), was developed to mount S3 buckets to directories of Linux operating systems <b><i>similarly to the way you mount CIFS or NFS share as a network drive.</i>/</b> S3FS is a free and open source solution. After mounting Amazon S3 cloud storage with S3FS to your Linux machine, you can use cp, mv, rm, and other commands in the Linux console to operate with files as you do when working with mounted local or network drives. 
 </blockquote>
-## Development
+## Development <a name="Development"></a>
 1. Developed (in C) a stand-alone RC4 + MD5 Hash (algorithm used from open-ssl library) encryption program that would encrypt and decrypt any type of file (including images)
 <img  src="https://storage.googleapis.com/static-images-703/S3FS-Stand-Alone.png" width="50%"/>
 2. S3FS installed in a <b>Linux</b> environment
@@ -45,12 +45,12 @@
 <blockquote><b>s3fs bucket-name /path/to/mountpoint -o passwd_file=/path/passwd-s3fs</b></blockquote>
 <br>
 <br>
-## Validation
+## Validation <a name="Validation"></a>
 <div>1. Mount bucket onto local drive</div>
 <div>2. Place any type of file into the mounted bucket (encrypted or decrypted)</div>
 <div>3. Check S3 bucket for file to see if it the encryption/decryption was reversed</div>
 <div>4. Tested a file vice versa, placing file in s3 bucket</div>
 <br>
 <br>
-## Infrastructure-Diagram
+## Infrastructure-Diagram <a name="Infrastructure-Diagram"></a>
 <img  src="https://storage.googleapis.com/static-images-703/S3FS-Infrastructure.png" width="100%"/>
