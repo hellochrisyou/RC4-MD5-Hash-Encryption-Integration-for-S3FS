@@ -33,14 +33,14 @@
 <blockquote><b>s3fs bucket-name /path/to/mountpoint -o passwd_file=/path/passwd-s3fs</b></blockquote>
 <br>
 <br>
-<h2>Result</h2>
+<h2>Validation</h2>
 <div>1. Mount bucket onto local drive</div>
 <div>2. Place any type of file into the mounted bucket (encrypted or decrypted)</div>
 <div>3. Check S3 bucket for file to see if it the encryption/decryption was reversed</div>
 <div>4. Tested a file vice versa, placing file in s3 bucket</div>
 <br>
 <br>
-<h2>Infrastructure</h2>
+<h2>Infrastructure Diagram</h2>
 <img  src="https://chrisyou-backup-website.s3.amazonaws.com/assets/S3FS/s3fs-diagram.png" width="100%"/>
 
 The below diagram, shows how both EBS and S3 buckets appears to a Linux operating system.
