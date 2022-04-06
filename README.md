@@ -1,15 +1,10 @@
 # Table of Contents
-1. [Example](#example)
-2. [Example2](#example2)
-3. [Third Example](#third-example)
-4. [Fourth Example](#fourth-examplehttpwwwfourthexamplecom)
+1. [Technical Background](#TechnicalBackground1)
+2. [Development](#Development2)
+3. [Validation](#Validation3)
+4. [Infrastructure Diagram](#InfrastructureDiagram4)
 
-
-## Example
-## Example2
-## Third Example
-## [Fourth Example](http://www.fourthexample.com)
-
+## TechnicalBackground1
 <h2>Technical Background</h2>
 <h5>Quoted from AWS resource webpage...</h5>
 <br>
@@ -19,6 +14,7 @@
  <br><br>  <b>This readme explains how to mount Amazon S3 cloud storage to a local directory on a Linux machine to allow using Amazon S3 for file sharing without a web browser.</b> 
  <br><br>  S3FS, a special solution based on FUSE (file system in user space), was developed to mount S3 buckets to directories of Linux operating systems <b><i>similarly to the way you mount CIFS or NFS share as a network drive.</i>/</b> S3FS is a free and open source solution. After mounting Amazon S3 cloud storage with S3FS to your Linux machine, you can use cp, mv, rm, and other commands in the Linux console to operate with files as you do when working with mounted local or network drives. 
 </blockquote>
+## Development2
 <h2>Development</h2>
 1. Developed (in C) a stand-alone RC4 + MD5 Hash (algorithm used from open-ssl library) encryption program that would encrypt and decrypt any type of file (including images)
 <img  src="https://storage.googleapis.com/static-images-703/S3FS-Stand-Alone.png" width="50%"/>
@@ -52,6 +48,7 @@
 <blockquote><b>s3fs bucket-name /path/to/mountpoint -o passwd_file=/path/passwd-s3fs</b></blockquote>
 <br>
 <br>
+## Validation3
 <h2>Validation</h2>
 <div>1. Mount bucket onto local drive</div>
 <div>2. Place any type of file into the mounted bucket (encrypted or decrypted)</div>
@@ -59,5 +56,6 @@
 <div>4. Tested a file vice versa, placing file in s3 bucket</div>
 <br>
 <br>
+## InfrastructureDiagram4
 <h2>Infrastructure Diagram</h2>
 <img  src="https://storage.googleapis.com/static-images-703/S3FS-Infrastructure.png" width="100%"/>
