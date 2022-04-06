@@ -9,13 +9,13 @@
 3. Integrate stand-alone algorithm (RC4 + MD5 Hash) into S3FS code-base (which would <b>enable encrypting/decrypting any files that is modified in a mounted bucket</b>)
 <br>
 <br>
-*RC4/MD5 Implementation*
+- RC4/MD5 Implementation
 <img  src="https://storage.googleapis.com/static-images-703/S3FS-implementation-2.png" width="100%"/>
 <hr>
-*Implementing RC4/MD5 Function*
+- Implementing RC4/MD5 Function
 <img  src="https://storage.googleapis.com/static-images-703/S3FS-implementation-2.png" width="100%"/>
 <hr>
-*Implementing RC4/MD5 Function
+- Implementing RC4/MD5 Function
 <img  src="https://storage.googleapis.com/static-images-703/S3FS-implementation-3.png" width="100%"/>
 <hr>
 4. Registered S3 bucket in AWS as remote storage for S3FS
