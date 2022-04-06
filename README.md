@@ -5,7 +5,7 @@
 1. Developed (in C) a stand-alone RC4 + MD5 Hash (algorithm used from open-ssl library) encryption program that would encrypt and decrypt any type of file (including images)
 <img  src="https://storage.googleapis.com/static-images-703/S3FS-Stand-Alone.png" width="50%"/>
 2. S3FS installed in a <b>Linux</b> environment
-<blockquote><b>sudo apt-get install s3fs</b></blockquote>
+<blockquote><b class="code-quote">sudo apt-get install s3fs</b></blockquote>
 3. Integrate stand-alone algorithm (RC4 + MD5 Hash) into S3FS code-base (which would <b>enable encrypting/decrypting any files that is modified in a mounted bucket</b>)
 <br>
 <br>
@@ -40,3 +40,8 @@
 The below diagram, shows how both EBS and S3 buckets appears to a Linux operating system.
 <img  src="https://chrisyou-backup-website.s3.amazonaws.com/assets/S3FS/s3fs-ebs.png" width="50%"/>
 
+<style>
+.code-quote {    
+    background-color: gray;
+}
+</style>
