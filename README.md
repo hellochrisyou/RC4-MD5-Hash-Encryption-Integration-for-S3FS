@@ -19,11 +19,15 @@
 <img  src="https://storage.googleapis.com/static-images-703/S3FS-implementation-3.png" width="100%"/>
 <hr>
 4. Registered S3 bucket in AWS as remote storage for S3FS
+<br>
+<br>
 ## Result
 1. Mount bucket onto local drive
 2. Place any type of file into the mounted bucket (encrypted or decrypted)
 3. Check S3 bucket for file to see if it the encryption/decryption was reversed
 4. Tested a file vice versa, placing file in s3 bucket
+<br>
+<br>
 ## Infrastructure
 <img  src="https://chrisyou-backup-website.s3.amazonaws.com/assets/S3FS/s3fs-diagram.png" width="100%"/>
 
