@@ -52,5 +52,5 @@
 <div>4. Tested a file vice versa, placing file in s3 bucket</div>
 <br>
 <br>
-<h1>Infrastructure-Diagram <a name="Infrastructure-Diagram"></a></h1>
+<h1>Infrastructure Diagram <a name="Infrastructure-Diagram"></a></h1>
 <img  src="https://storage.googleapis.com/static-images-703/S3FS-Infrastructure.png" width="100%"/>
