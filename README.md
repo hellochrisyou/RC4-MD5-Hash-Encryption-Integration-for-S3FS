@@ -13,7 +13,7 @@
 <li>RC4/MD5 Implementation
 <img  src="https://storage.googleapis.com/static-images-703/S3FS-implementation-2.png" width="100%"/>
 </li>
-<hr>
+<br>
 <li>Implementing RC4/MD5 Function
 <img  src="https://storage.googleapis.com/static-images-703/S3FS-implementation-2.png" width="100%"/>
 </li>
@@ -21,7 +21,8 @@
 <li>Implementing RC4/MD5 Function
 <img  src="https://storage.googleapis.com/static-images-703/S3FS-implementation-3.png" width="100%"/>
 </li>
-<hr>
+</ul>
+<br>
 4. Registered S3 bucket in AWS as remote storage for S3FS
 <br>
 <br>
