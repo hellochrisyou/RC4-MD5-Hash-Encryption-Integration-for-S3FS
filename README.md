@@ -1,6 +1,7 @@
 <img  src="https://chrisyou-backup-website.s3.amazonaws.com/assets/github-preview/s3fs/final-s3fs.png" width="100%"/>
 <h2>Technical Background</h2>
-<small>Quoted from AWS resource webpage...</small>
+<h5>Quoted from AWS resource webpage...</h5>
+<br>
 <blockquote>
 <br>  Amazon S3 (Simple Storage Services) is a scalable cloud storage service from Amazon Web Services (AWS) used by many customers in the world. The basic unit of data storage in Amazon S3 is a bucket. You can create multiple buckets in Amazon S3 cloud storage and configure permissions for users who need to access the buckets. By default, users can access data stored in Amazon S3 buckets by using the AWS web interface.
 <br><br>  However, a user may need to access a bucket in Amazon S3 cloud by using the interface of an operating system such as Linux or Windows. Access to Amazon S3 cloud storage from the command line of an operating system is useful for working in operating systems that don’t have a graphical user interface (GUI), in particular <i>virtual machines running in the public cloud. <b>It is also useful for automating tasks such as copying files or making data backups.</b></i> 
