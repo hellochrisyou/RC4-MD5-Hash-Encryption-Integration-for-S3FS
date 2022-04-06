@@ -2,7 +2,7 @@
 
 ## Development
 1. Programmed stand-alone rc4 + md5 hash (algorithm used from open-ssl library) encryption program that would encrypt and decrypt any type of file.
-<img  src="https://storage.googleapis.com/static-images-703/S3FS-Stand-Alone.png" width="100%"/>
+<img  src="https://storage.googleapis.com/static-images-703/S3FS-Stand-Alone.png" width="50%"/>
 3. Installed S3FS on Linux machine
 4. Implemented stand-alone algorithm into s3fs code-base 
 5. Registered S3 bucket in AWS as remote storage for S3FS
