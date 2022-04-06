@@ -23,14 +23,21 @@
 <br>
 4. Generate the access key ID and secret access key in AWS
 5. <img  src="https://storage.googleapis.com/static-images-703/S3FS-key.png" width="50%"/>
-6. Registered S3 bucket in AWS as remote storage for S3FS
+6. Go back to the Ubuntu console to create a configuration file for storing the AWS access key and secret access key needed to mount an S3 bucket with S3FS.
+<blockquote><b>echo ACCESS_KEY:SECRET_ACCESS_KEY > PATH_TO_FILE</b></blockquote>
+7. Set correct permissions for the passwd-s3fs file where the access keys are stored:
+<blockquote><b>chmod 600 ~/.passwd-s3fs</b></blockquote>
+8. Create the directory (mount point) that will be used as a mount point for your S3 bucket
+<blockquote><b>mkdir ~/s3-bucket</b></blockquote>
+9. Register S3 bucket in AWS as remote storage for S3FS
+<blockquote><b>s3fs bucket-name /path/to/mountpoint -o passwd_file=/path/passwd-s3fs</b></blockquote>
 <br>
 <br>
 <h2>Result</h2>
-1. Mount bucket onto local drive
-2. Place any type of file into the mounted bucket (encrypted or decrypted)
-3. Check S3 bucket for file to see if it the encryption/decryption was reversed
-4. Tested a file vice versa, placing file in s3 bucket
+<div>1. Mount bucket onto local drive</div>
+<div>2. Place any type of file into the mounted bucket (encrypted or decrypted)</div>
+<div>3. Check S3 bucket for file to see if it the encryption/decryption was reversed</div>
+<div>4. Tested a file vice versa, placing file in s3 bucket</div>
 <br>
 <br>
 <h2>Infrastructure</h2>
