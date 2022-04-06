@@ -4,7 +4,7 @@
 3. [Validation](#Validation)
 4. [Infrastructure Diagram](#Infrastructure-Diagram)
 ## Technical-Background
-<h2>Technical Background</h2>
+<!-- <h2>Technical Background</h2> -->
 <h5>Quoted from AWS resource webpage...</h5>
 <br>
 <blockquote>
@@ -14,7 +14,7 @@
  <br><br>  S3FS, a special solution based on FUSE (file system in user space), was developed to mount S3 buckets to directories of Linux operating systems <b><i>similarly to the way you mount CIFS or NFS share as a network drive.</i>/</b> S3FS is a free and open source solution. After mounting Amazon S3 cloud storage with S3FS to your Linux machine, you can use cp, mv, rm, and other commands in the Linux console to operate with files as you do when working with mounted local or network drives. 
 </blockquote>
 ## Development
-<h2>Development</h2>
+<!-- <h2>Development</h2> -->
 1. Developed (in C) a stand-alone RC4 + MD5 Hash (algorithm used from open-ssl library) encryption program that would encrypt and decrypt any type of file (including images)
 <img  src="https://storage.googleapis.com/static-images-703/S3FS-Stand-Alone.png" width="50%"/>
 2. S3FS installed in a <b>Linux</b> environment
@@ -48,7 +48,7 @@
 <br>
 <br>
 ## Validation
-<h2>Validation</h2>
+<!-- <h2>Validation</h2> -->
 <div>1. Mount bucket onto local drive</div>
 <div>2. Place any type of file into the mounted bucket (encrypted or decrypted)</div>
 <div>3. Check S3 bucket for file to see if it the encryption/decryption was reversed</div>
@@ -56,5 +56,5 @@
 <br>
 <br>
 ## Infrastructure-Diagram
-<h2>Infrastructure Diagram</h2>
+<!-- <h2>Infrastructure Diagram</h2> -->
 <img  src="https://storage.googleapis.com/static-images-703/S3FS-Infrastructure.png" width="100%"/>
