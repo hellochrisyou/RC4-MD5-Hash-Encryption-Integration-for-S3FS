@@ -9,26 +9,30 @@
 3. Integrate stand-alone algorithm (RC4 + MD5 Hash) into S3FS code-base (which would <b>enable encrypting/decrypting any files that is modified in a mounted bucket</b>)
 <br>
 <br>
-- RC4/MD5 Implementation
+<ul>
+<li>RC4/MD5 Implementation
 <img  src="https://storage.googleapis.com/static-images-703/S3FS-implementation-2.png" width="100%"/>
+</li>
 <hr>
-- Implementing RC4/MD5 Function
+<li>Implementing RC4/MD5 Function
 <img  src="https://storage.googleapis.com/static-images-703/S3FS-implementation-2.png" width="100%"/>
+</li>
 <hr>
-- Implementing RC4/MD5 Function
+<li>Implementing RC4/MD5 Function
 <img  src="https://storage.googleapis.com/static-images-703/S3FS-implementation-3.png" width="100%"/>
+</li>
 <hr>
 4. Registered S3 bucket in AWS as remote storage for S3FS
 <br>
 <br>
-## Result
+<h2>Result</h2>
 1. Mount bucket onto local drive
 2. Place any type of file into the mounted bucket (encrypted or decrypted)
 3. Check S3 bucket for file to see if it the encryption/decryption was reversed
 4. Tested a file vice versa, placing file in s3 bucket
 <br>
 <br>
-## Infrastructure
+<h2>Infrastructure</h2>
 <img  src="https://chrisyou-backup-website.s3.amazonaws.com/assets/S3FS/s3fs-diagram.png" width="100%"/>
 
 The below diagram, shows how both EBS and S3 buckets appears to a Linux operating system.
