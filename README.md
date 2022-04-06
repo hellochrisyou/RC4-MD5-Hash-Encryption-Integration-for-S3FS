@@ -1,5 +1,11 @@
 <img  src="https://chrisyou-backup-website.s3.amazonaws.com/assets/github-preview/s3fs/final-s3fs.png" width="100%"/>
-
+<h2>Technical Background</h2>
+<blockquote>
+  Amazon S3 (Simple Storage Services) is a scalable cloud storage service from Amazon Web Services (AWS) used by many customers in the world. The basic unit of data storage in Amazon S3 is a bucket. You can create multiple buckets in Amazon S3 cloud storage and configure permissions for users who need to access the buckets. By default, users can access data stored in Amazon S3 buckets by using the AWS web interface.
+  However, a user may need to access a bucket in Amazon S3 cloud by using the interface of an operating system such as Linux or Windows. Access to Amazon S3 cloud storage from the command line of an operating system is useful for working in operating systems that don’t have a graphical user interface (GUI), in particular virtual machines running in the public cloud. It is also useful for automating tasks such as copying files or making data backups. This readme explains how to mount Amazon S3 cloud storage to a local directory on a Linux machine to allow using Amazon S3 for file sharing without a web browser.
+   In this project, I use S3FS to mount an Amazon S3 bucket as a local file system (disk drive) in a Linux directory.
+   S3FS, a special solution based on FUSE (file system in user space), was developed to mount S3 buckets to directories of Linux operating systems similarly to the way you mount CIFS or NFS share as a network drive. S3FS is a free and open source solution. After mounting Amazon S3 cloud storage with S3FS to your Linux machine, you can use cp, mv, rm, and other commands in the Linux console to operate with files as you do when working with mounted local or network drives. 
+</blockquote>
 <h2>Development</h2>
 1. Developed (in C) a stand-alone RC4 + MD5 Hash (algorithm used from open-ssl library) encryption program that would encrypt and decrypt any type of file (including images)
 <img  src="https://storage.googleapis.com/static-images-703/S3FS-Stand-Alone.png" width="50%"/>
