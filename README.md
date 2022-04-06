@@ -11,43 +11,7 @@
 <br>
 <ul>
 <li>RC4/MD5 Implementation
-```
-//Encryption-Decryption Function
-void convert(int fd){
-string pass = "convert";
-
-//md5 hashing
-unsigned char digest[MD5_DIGEST_LENGTH];
-char in[sizeof(pass)];
-strcpy(in,pass.c_str());
-MD5((unsigned char*)&in, strlen(in), (unsigned char*)&digest);
-
-//read from file
-int fileLength = lseek(fd, 0, SEEK_END);
-
-unsigned char* fcontents;
-fcontents = (unsigned char*) calloc(fileLength, sizeof(char));
-
-if (0 == (pread(fd , fcontents, fileLength, 0))){
-cout << "SORRY" << endl;
-free (fcontents);
-}
-
-//convert to string
-string change(reinterpret_cast<char const*>(fcontents), fileLength);
-
-//encryption-decryption
-RC4_KEY key;
-int length = change.length();
-unsigned char *buff = (unsigned char*)malloc(length-1);
-memset(buff, 0, length-1);
-RC4_set_key(&key, sizeof(digest) ,(const unsigned char*)digest);
-RC4(&key, length, (const unsigned char*)change.c_str(), buff);
-string result((char*)buff, length);
-pwrite(fd, result.c_str(), fileLength, 0);
-free (buff);
-}
-```
+<img  src="https://storage.googleapis.com/static-images-703/S3FS-implementation-1.png" width="100%"/>
 </li>
 <br>
 <li>Implementing RC4/MD5 Function
