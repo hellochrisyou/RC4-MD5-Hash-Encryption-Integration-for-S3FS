@@ -17,7 +17,6 @@
 <li>Implementing RC4/MD5 Function
 <img  src="https://storage.googleapis.com/static-images-703/S3FS-implementation-2.png" width="100%"/>
 </li>
-<hr>
 <li>Implementing RC4/MD5 Function
 <img  src="https://storage.googleapis.com/static-images-703/S3FS-implementation-3.png" width="100%"/>
 </li>
