@@ -1,4 +1,4 @@
-<h2>README<h5>Created by Chris You</h5></h2>
+<h2>README - Created by Chris You</h2>
 # Table of Contents
 1. [Preview](#Preview)
 2. [Technical Background](#Technical-Background)
