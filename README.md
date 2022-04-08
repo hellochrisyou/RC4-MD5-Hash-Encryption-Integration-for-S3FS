@@ -1,5 +1,5 @@
 # Table of Contents
-1. [Preview] (#Preview)
+1. [Preview](#Preview)
 2. [Technical Background](#Technical-Background)
 3. [Development](#Development)
 4. [Validation](#Validation)
