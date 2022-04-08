@@ -4,7 +4,7 @@
 3. [Development](#Development)
 4. [Validation](#Validation)
 5. [Infrastructure Diagram](#Infrastructure-Diagram)
-<h1>Preview<a name="Preview"></h1>
+<h1>Preview<a name="Preview"></a></h1>
 <img width="628" alt="S3FS-Sample" src="https://user-images.githubusercontent.com/28457425/162480961-c40c1f8c-d357-495c-9743-c93f82f85474.png">
 
 <h1>Technical Background <a name="Technical-Background"></a></h1>
